@@ -1,0 +1,4 @@
+
+uwsgi==2.0.14
+Flask==2.2.2
+pymongo==4.3.3

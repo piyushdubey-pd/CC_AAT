@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  flask:
+    build: ./
+    container_name: flask2020
+    restart: always
+    environment: 
+      - APP_NAME=MyFlaskApp
+    expose:
+      - 5000
